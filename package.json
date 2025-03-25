@@ -4,11 +4,14 @@
   "description": "WhatsApp chatbot using Venom Bot",
   "main": "server.js",
   "dependencies": {
-    "venom-bot": "^5.0.0",
     "express": "^4.17.1",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "venom-bot": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   },
   "scripts": {
-    "start": "server.js"
+    "start": "node server.js"
   }
 }
