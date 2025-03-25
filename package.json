@@ -6,13 +6,16 @@
   "dependencies": {
     "express": "^4.17.1",
     "cors": "^2.8.5",
-    "venom-bot": "^5.0.0"
+    "venom-bot": "^5.0.0",
+    "puppeteer": "^22.8.2"
   },
   "engines": {
-    "node": "18.x"
+    "node": "18.x",
+    "npm": ">=8.0.0"
   },
   "scripts": {
     "start": "node server.js",
     "render-start": "npm install && npm start"
-  }
+  },
+  "license": "MIT"
 }
